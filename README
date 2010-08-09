@@ -1,0 +1,17 @@
+This is the Talk Allocator, an example project used for the Scala-Book
+http://www.hanser.de/buch.asp?isbn=978-3-446-42399-2&area=Computer
+
+In order to use it, you need the Simple Build Tool
+http://code.google.com/p/simple-build-tool/
+
+Quickstart:
+
+$ sbt
+> update
+> jetty-run
+
+Then open http://localhost:8080/ in your favourite browser.
+
+Login as user user@obraun.org with password talkuser or
+as admin admin@obraun.org with password talkadmin.
+

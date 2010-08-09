@@ -1,0 +1,19 @@
+<lift:surround with="default" at="content">
+  <h2>Neuer Talk</h2>
+  <lift:Talks.add form="post">
+    <table>
+      <tr>
+        <td>
+          <talk:title/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <talk:add/>
+        </td>
+      </tr>
+    </table>
+  </lift:Talks.add>
+  <h2>Talk löschen</h2>
+  <lift:Talks.delete form="post"/>
+</lift:surround>
