@@ -34,7 +34,6 @@ package org.obraun.talkallocator
 
 import net.liftweb._
 import util._
-
 import common._
 import http._
 import sitemap._
@@ -79,3 +78,4 @@ class Boot extends Bootable {
     S.addAround(DB.buildLoanWrapper)
   }
 }
+// vim: set ts=2 sw=4 et:
